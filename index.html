@@ -2,6 +2,92 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <title>🚀 Chatbot Futuriste</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6fb;
+            color: #222;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background: #232946;
+            color: #fff;
+            padding: 30px 0;
+            text-align: center;
+        }
+        section#chatbot {
+            background: #fff;
+            margin: 40px auto;
+            padding: 32px 24px;
+            border-radius: 14px;
+            box-shadow: 0 5px 18px 0 rgba(35,41,70,0.07);
+            max-width: 360px;
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h2 {
+            margin-bottom: 24px;
+            color: #232946;
+        }
+        input[type="text"] {
+            width: 90%;
+            padding: 12px 10px;
+            border: 1px solid #c3c8d3;
+            border-radius: 6px;
+            font-size: 16px;
+            margin-bottom: 18px;
+        }
+        button {
+            padding: 12px 26px;
+            border-radius: 6px;
+            border: none;
+            background: #0066ff;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+            margin-bottom: 14px;
+            transition: background 0.2s;
+        }
+        button#voiceButton {
+            background: #e2e8f0;
+            color: #232946;
+            margin-bottom: 0;
+        }
+        #response {
+            background: #f4f6fb;
+            border-radius: 6px;
+            margin: 18px 0 20px 0;
+            min-height: 32px;
+            width: 90%;
+            padding: 10px;
+            color: #0066ff;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🚀 Chatbot Futuriste</h1>
+    </header>
+    <section id="chatbot">
+        <h2>💬 Interagis avec ton assistant IA</h2>
+        <input type="text" id="userInput" placeholder="Pose-moi une question...">
+        <button>Envoyer</button>
+        <p id="response">Réponse IA ici...</p>
+        <button id="voiceButton">🎤 Parler</button>
+    </section>
+</body>
+</html><!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chatbot Futuriste</title>
     <link rel="stylesheet" href="style.css">
